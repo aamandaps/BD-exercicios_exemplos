@@ -66,3 +66,59 @@ Para cada carro da frota é mantido um histórico dos reparos realizados, indica
 valor, descrição do serviço e oficina que o realizou.
 
 ---
+
+## Exercícios Banco de Dados I - Segunda Parte
+### Exercício 01
+####
+Para se desenvolver um aplicativo de música se pensou nas seguintes regras:
+É necessário armazenar as músicas, com um identificador (ID), seu nome e tempo de duração.
+Todas as músicas pertencem a um disco que tem um código, um nome e um ano de
+lançamento. As músicas de cada disco são associadas a apenas um cantor ou banda (Caso
+exista parceria, é importante se armazenar uma descrição da música que conste a parceria ou
+qualquer outro dado relevante). Os cantores/banda, que podem ter diversos discos, com
+diversas músicas no sistema, são cadastrados por um código identificador, seu nome e uma
+URL com a foto.
+O aplicativo deve cadastrar os usuários pelo seu e-mail (único), seu nome, seu telefone (com o
+qual se recupera a conta), login e senha. O app tem diversos planos com um identificador, um
+nome e um valor. Cada usuário tem apenas um plano.
+Um usuário pode criar playlists com diversas músicas e cada playlist tem um ID e um nome.
+
+---
+
+### Exercício 02
+Considere as seguintes informações sobre um banco de dados de um centro de pesquisa de
+uma universidade:
+• Os professores têm um CPF, um nome, uma idade, uma posição e uma especialidade de
+pesquisa;
+• Os projetos têm um número de projeto, um nome de financiador (por exemplo, CNPQ), uma
+data inicial, uma data final e um orçamento;
+
+• Os estudantes de pós-graduação têm um CPF, um nome, uma idade e um programa de pós-
+graduação (por exemplo, mestrado ou doutorado);
+
+• Cada projeto é gerenciado por um professor (conhecido como pesquisador principal do
+projeto);
+
+• Cada projeto é conduzido por um ou mais professores (conhecidos como copesquisadores);
+
+• Os professores podem gerenciar e/ou trabalhar em múltiplos projetos;
+
+• Cada projeto é conduzido por um ou mais estudantes de pós-graduação (conhecidos como
+os assistentes de pesquisa do projeto). Neste caso, cada estudante deve ter um professor para
+supervisionar seu trabalho no projeto. Os alunos de pós-graduação podem trabalhar em
+múltiplos projetos, e, neste caso, eles terão um supervisor (potencialmente diferente) para
+cada projeto;
+
+• Os departamentos têm um número de departamento, um nome e um escritório principal;
+
+• Os departamentos têm um professor (conhecido como chefe do departamento) que o
+administra;
+
+• Os professores trabalham em um ou mais departamentos e, para cada departamento em que
+trabalham, uma porcentagem de tempo está associada a seu trabalho;
+
+• Os alunos de pós-graduação têm um departamento principal no qual estão conduzindo seu
+programa de pós-graduação;
+
+• Cada estudante tem um outro estudante mais experiente (conhecido como conselheiro do
+aluno) que o aconselha nos cursos a que deve assistir.
