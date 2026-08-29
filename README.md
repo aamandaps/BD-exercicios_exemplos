@@ -88,8 +88,10 @@ Um usuário pode criar playlists com diversas músicas e cada playlist tem um ID
 ### Exercício 02
 Considere as seguintes informações sobre um banco de dados de um centro de pesquisa de
 uma universidade:
+
 • Os professores têm um CPF, um nome, uma idade, uma posição e uma especialidade de
 pesquisa;
+
 • Os projetos têm um número de projeto, um nome de financiador (por exemplo, CNPQ), uma
 data inicial, uma data final e um orçamento;
 
